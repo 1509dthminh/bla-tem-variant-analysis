@@ -1,0 +1,76 @@
+LOCUS       NG_050145               1061 bp    DNA     linear   CON 05-AUG-2026
+DEFINITION  Escherichia coli plasmid pC15-1a blaTEM gene for broad-spectrum
+            class A beta-lactamase TEM-1, complete CDS.
+ACCESSION   NG_050145
+VERSION     NG_050145.1
+DBLINK      BioProject: PRJNA313047
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Enterobacterales; Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 1061)
+  AUTHORS   Boyd,D.A., Tyler,S., Christianson,S., McGeer,A., Muller,M.P.,
+            Willey,B.M., Bryce,E., Gardam,M., Nordmann,P. and Mulvey,M.R.
+  TITLE     Complete nucleotide sequence of a 92-kilobase plasmid harboring the
+            CTX-M-15 extended-spectrum beta-lactamase involved in an outbreak
+            in long-term-care facilities in Toronto, Canada
+  JOURNAL   Antimicrob. Agents Chemother. 48 (10), 3758-3764 (2004)
+   PUBMED   15388431
+REFERENCE   2  (bases 1 to 1061)
+  CONSRTM   NCBI Refseq Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-AUG-2026) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AY458016.1.
+            This record has been chosen as a reference for antimicrobial
+            resistance. For more general information:
+            http://www.ncbi.nlm.nih.gov/pathogens/
+            COMPLETENESS: not full length.
+FEATURES             Location/Qualifiers
+     source          1..1061
+                     /organism="Escherichia coli"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:562"
+                     /plasmid="pC15-1a"
+     gene            101..961
+                     /gene="blaTEM"
+                     /locus_tag="A7J11_00169"
+                     /allele="blaTEM-1"
+     CDS             101..961
+                     /gene="blaTEM"
+                     /locus_tag="A7J11_00169"
+                     /allele="blaTEM-1"
+                     /EC_number="3.5.2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="broad-spectrum class A beta-lactamase TEM-1"
+                     /protein_id="WP_000027057.1"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
+ORIGIN      
+        1 aacccctatt tgtttatttt tctaaataca ttcaaatatg tatccgctca tgagacaata
+       61 accctggtaa atgcttcaat aatattgaaa aaggaagagt atgagtattc aacattttcg
+      121 tgtcgccctt attccctttt ttgcggcatt ttgccttcct gtttttgctc acccagaaac
+      181 gctggtgaaa gtaaaagatg ctgaagatca gttgggtgca cgagtgggtt acatcgaact
+      241 ggatctcaac agcggtaaga tccttgagag ttttcgcccc gaagaacgtt ttccaatgat
+      301 gagcactttt aaagttctgc tatgtggtgc ggtattatcc cgtgttgacg ccgggcaaga
+      361 gcaactcggt cgccgcatac actattctca gaatgacttg gttgagtact caccagtcac
+      421 agaaaagcat cttacggatg gcatgacagt aagagaatta tgcagtgctg ccataaccat
+      481 gagtgataac actgctgcca acttacttct gacaacgatc ggaggaccga aggagctaac
+      541 cgcttttttg cacaacatgg gggatcatgt aactcgcctt gatcgttggg aaccggagct
+      601 gaatgaagcc ataccaaacg acgagcgtga caccacgatg cctgcagcaa tggcaacaac
+      661 gttgcgcaaa ctattaactg gcgaactact tactctagct tcccggcaac aattaataga
+      721 ctggatggag gcggataaag ttgcaggacc acttctgcgc tcggcccttc cggctggctg
+      781 gtttattgct gataaatctg gagccggtga gcgtgggtct cgcggtatca ttgcagcact
+      841 ggggccagat ggtaagccct cccgtatcgt agttatctac acgacgggga gtcaggcaac
+      901 tatggatgaa cgaaatagac agatcgctga gataggtgcc tcactgatta agcattggta
+      961 actgtcagac caagtttact catatatact ttagattgat ttaaaacttc atttttaatt
+     1021 taaaaggatc taggtgaaga tcctttttga taatctcatg a
+//
+

@@ -1,0 +1,77 @@
+LOCUS       NG_050259               1061 bp    DNA     linear   CON 05-AUG-2026
+DEFINITION  Klebsiella pneumoniae CF104 plasmid pCFF04 blaTEM gene for
+            extended-spectrum class A beta-lactamase TEM-3, complete CDS.
+ACCESSION   NG_050259
+VERSION     NG_050259.1
+DBLINK      BioProject: PRJNA313047
+KEYWORDS    RefSeq.
+SOURCE      Klebsiella pneumoniae
+  ORGANISM  Klebsiella pneumoniae
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Enterobacterales; Enterobacteriaceae; Klebsiella; Klebsiella
+            pneumoniae complex.
+REFERENCE   1
+  AUTHORS   Mabilat,C., Lourencao-Vital,J., Goussard,S. and Courvalin,P.
+  TITLE     A new example of physical linkage between Tn1 and Tn21: the
+            antibiotic multiple-resistance region of plasmid pCFF04 encoding
+            extended-spectrum beta-lactamase TEM-3
+  JOURNAL   Mol. Gen. Genet. 235 (1), 113-121 (1992)
+   PUBMED   1331747
+REFERENCE   2  (bases 1 to 1061)
+  CONSRTM   NCBI Refseq Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-AUG-2026) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from X64523.1.
+            This record has been chosen as a reference for antimicrobial
+            resistance. For more general information:
+            http://www.ncbi.nlm.nih.gov/pathogens/
+            COMPLETENESS: not full length.
+FEATURES             Location/Qualifiers
+     source          1..1061
+                     /organism="Klebsiella pneumoniae"
+                     /mol_type="genomic DNA"
+                     /strain="CF104"
+                     /db_xref="taxon:573"
+                     /plasmid="pCFF04"
+     gene            101..961
+                     /gene="blaTEM"
+                     /locus_tag="A7J11_00948"
+                     /allele="blaTEM-3"
+     CDS             101..961
+                     /gene="blaTEM"
+                     /locus_tag="A7J11_00948"
+                     /allele="blaTEM-3"
+                     /EC_number="3.5.2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="extended-spectrum class A beta-lactamase TEM-3"
+                     /protein_id="WP_032488414.1"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDKLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVK
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGASERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
+ORIGIN      
+        1 aacccctatt tgtttatttt tctaaataca ttcaaatatg tatccgctca tgagacaata
+       61 accctgataa atgcttcaat aatattgaaa aaggaagagt atgagtattc aacatttccg
+      121 tgtcgccctt attccctttt ttgcggcatt ttgccttcct gtttttgctc acccagaaac
+      181 gctggtgaaa gtaaaagatg ctgaagataa gttgggtgca cgagtgggtt acatcgagct
+      241 ggatctcaac agcggtaaga tccttgagag ttttcgcccc gaagaacgtt ttccaatgat
+      301 gagcactttt aaagttctgc tatgtggtgc ggtattatcc cgtgttgacg ccgggcaaga
+      361 gcaactcggt cgccgcatac actattctca gaatgacttg gttaagtact caccagtcac
+      421 agaaaagcat cttacggatg gcatgacagt aagagaatta tgcagtgctg ccataaccat
+      481 gagtgataac actgcggcca acttacttct gacaacgatc ggaggaccga aggagctaac
+      541 cgcttttttg cacaacatgg gggatcatgt aacccgcctt gatcgttggg aaccggagct
+      601 gaatgaagcc ataccaaacg acgagcgtga caccacgatg cctgcagcaa tggcaacaac
+      661 gttgcgcaaa ctattaactg gcgaactact tactctagct tcccggcaac aattaataga
+      721 ctggatggag gcggataaag ttgcaggacc acttctgcgc tcggcccttc cggctggctg
+      781 gtttattgct gataaatctg gagccagtga gcgtggatct cgcggtatca ttgcagcact
+      841 ggggccagat ggtaagccct cccgtatcgt agttatctac acgacgggga gtcaggcaac
+      901 tatggatgaa cgaaatagac agatcgctga gataggtgcc tcactgatta agcattggta
+      961 actgtcagac caagtttact catatatact ttagattgat ttaaaacttc atttttaatt
+     1021 taaaaggatc taggtgaaga tcctttttga taatctcatg a
+//
+
