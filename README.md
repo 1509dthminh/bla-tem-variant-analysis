@@ -1,4 +1,3 @@
-# bla-tem-variant-analysis
 # Phân tích biến thể gene blaTEM kháng kháng sinh
 
 Project cuối kì MAT3390-Nhập môn Tin sinh học (kì 1 năm 2026)
