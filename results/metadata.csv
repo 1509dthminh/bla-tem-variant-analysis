@@ -1,0 +1,5 @@
+name,accession,organism,record_length,cds_start,cds_end,strand,cds_length,product
+TEM-1,NG_050145.1,Escherichia coli,1061,101,961,+,861,broad-spectrum class A beta-lactamase TEM-1
+TEM-2,NG_050234.1,Pseudomonas aeruginosa,961,101,961,+,861,broad-spectrum class A beta-lactamase TEM-2
+TEM-3,NG_050259.1,Klebsiella pneumoniae,1061,101,961,+,861,extended-spectrum class A beta-lactamase TEM-3
+TEM-4,NG_050265.1,Klebsiella pneumoniae,1061,101,961,+,861,extended-spectrum class A beta-lactamase TEM-4
