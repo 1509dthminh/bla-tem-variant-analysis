@@ -3,13 +3,10 @@
 Project cuối kì MAT3390-Nhập môn Tin sinh học (kì 1 năm 2026)
 
 # 1. Mục tiêu:
-Gene *bla*TEM-1 mã hóa enzyme B-lactamase khiến vi khuẩn kháng penicillin. Các biến thể (TEM-2,TEM-3,..) khác biến thể gốc TEM-1 ở vài nucleotide. Project sẽ:
-1. Normalize trình tự từng biến thể 
-2. ORF và translate ra protein
-3. Global alignment (Needleman-Wunsch) giữa TEM-1 và từng biến thể
-4. Xác định đột biến 
-5. Xác định protein bằng BLASTp
-6. Kiểm định kết quả
+Gene *bla*TEM-1 mã hóa enzyme B-lactamase khiến vi khuẩn kháng penicillin. Các biến thể (TEM-2,TEM-3,..) khác biến thể gốc TEM-1 ở vài nucleotide. Project cố gắng trả lời các câu hỏi sau:
+1. Các biến thể của TEM-1 là đột biến gì ? (thay thế, chèn hay xóa?)
+2. Protein từ đột biến gene có thay đổi nhiều không ?
+3. Protein từ các biến thể có cùng họ B-lactamase TEM không ?
 
 # 2. Dữ liệu:
 Source: NCBI, lưu ở data/raw/
