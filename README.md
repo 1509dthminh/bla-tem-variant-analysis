@@ -6,7 +6,7 @@ Project cuối kì MAT3390-Nhập môn Tin sinh học (kì 1 năm 2026)
 Gene *bla*TEM-1 mã hóa enzyme B-lactamase khiến vi khuẩn kháng penicillin. Các biến thể (TEM-2,TEM-3,..) khác biến thể gốc TEM-1 ở vài nucleotide. Project cố gắng trả lời các câu hỏi sau:
 1. Các biến thể của TEM-1 là đột biến gì ? (thay thế, chèn hay xóa?)
 2. Protein từ đột biến gene có thay đổi nhiều không ?
-3. Protein từ các biến thể có cùng họ B-lactamase TEM không >
+3. Protein từ các biến thể có cùng họ B-lactamase TEM không ?
 # 2. Dữ liệu:
 Source: NCBI, lưu ở data/raw/
 Mỗi biến thể có 3 file: 
