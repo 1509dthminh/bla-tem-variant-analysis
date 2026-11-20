@@ -31,7 +31,7 @@ bla-tem-variant-analysis/
 └── slides/           
 ```
 # 4. Pipeline:
-Tiền xử lí dữ liệu -> ORF, translate -> Global alignment DNA -> gióng hàng protein, phân loại đột biến -> phân tích họ protein -> kiểm thử
+Tiền xử lí dữ liệu -> ORF, translate -> global alignment DNA -> gọi đột biến DNA -> phân loại theo codon -> gióng hàng protein -> đo mức thay đổi của protein -> đột biến mô phỏng-> phân tích họ protein -> kiểm thử + đánh giá
 # 5. Ví dụ cụ thể
 thêm sau
 # 6. Khai báo sử dụng AI
