@@ -7,7 +7,6 @@ Gene *bla*TEM-1 mã hóa enzyme B-lactamase khiến vi khuẩn kháng penicillin
 1. Các biến thể của TEM-1 là đột biến gì ? (thay thế, chèn hay xóa?)
 2. Protein từ đột biến gene có thay đổi nhiều không ?
 3. Protein từ các biến thể có cùng họ B-lactamase TEM không ?
-
 # 2. Dữ liệu:
 Source: NCBI, lưu ở data/raw/
 Mỗi biến thể có 3 file: 
@@ -32,7 +31,7 @@ bla-tem-variant-analysis/
 └── slides/           
 ```
 # 4. Pipeline:
-thêm sau
+Tiền xử lí dữ liệu -> ORF, translate -> Global alignment DNA -> gióng hàng protein, phân loại đột biến -> phân tích họ protein -> kiểm thử
 # 5. Ví dụ cụ thể
 thêm sau
 # 6. Khai báo sử dụng AI
