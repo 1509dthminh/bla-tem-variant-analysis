@@ -33,7 +33,24 @@ bla-tem-variant-analysis/
 # 4. Pipeline:
 Tiền xử lí dữ liệu -> ORF, translate -> global alignment DNA -> gọi đột biến DNA -> phân loại theo codon -> gióng hàng protein -> đo mức thay đổi của protein -> đột biến mô phỏng-> phân tích họ protein -> kiểm thử + đánh giá
 # 5. Ví dụ cụ thể
-thêm sau
+Chạy tiền xử lí từ thư mục dự án (Python 3.10 trở lên):
+
+```powershell
+python src/fasta_io.py
+python tests/test_fasta_io.py
+```
+
+Module FASTA và bộ test này chỉ dùng thư viện chuẩn Python. Nếu `python` chưa có
+trong PATH, dùng đường dẫn tới `python.exe` của môi trường đang sử dụng.
+
+- Đọc `data/raw/TEM-*_cds.fasta`, chuyển chữ hoa và bỏ khoảng trắng.
+- Ghi từng trình tự hợp lệ vào `data/clean/TEM-n.fasta`, header `>TEM-n`.
+- Ghi `results/seq_stats.csv` với các cột `name,length,gc_percent,n_invalid`.
+  GC tính theo phần trăm và hiển thị bốn chữ số thập phân.
+- Chuỗi có ký tự ngoài `ACGT` vẫn có dòng thống kê; GC để trống, không xuất FASTA
+  và xóa file clean cùng tên từ lần chạy trước nếu có. Vị trí ký tự lỗi bắt đầu từ 0.
+- File rỗng, sai cấu trúc hoặc có nhiều record làm chương trình dừng trước khi ghi đầu ra.
+  Chạy lại sẽ ghi đè kết quả, không nối thêm dòng; dữ liệu raw được giữ nguyên.
 # 6. Khai báo sử dụng AI
 có. chi tiết thêm sau
 # 7. Tài liệu tham khảo
